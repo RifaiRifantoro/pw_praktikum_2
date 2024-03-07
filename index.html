@@ -1,17 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>1. Membuat List</h1>
-    <p>Daftar kampus diJogja</p>
-    <ul>
-        <li>UGM</li>
-        <li>UPN</li>
-        <li>UNY</li>
-    </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHALLENGE pertemuan 2</title>
+  </head>
+  <body>
+    <h1>Challenge_22.11.4724</h1>
+    <table border="5">
+      <tr>
+        <td bgcolor="orange" colspan="4" align="center">Daftar Buku</td>
+      </tr>
+      <tr>
+        <td rowspan="4" align="center">
+          <image src="cover.jpg" width="150" heigh="200"></image>
+        </td>
+        <td>Judul</td>
+        <td>:</td>
+        <td>web proggraming</td>
+      </tr>
+      <tr>
+        <td>Harga</td>
+        <td>:</td>
+        <td>Rp. 245.000,00</td>
+      </tr>
+      <tr>
+        <td>Penggarang</td>
+        <td> : </td>
+        <td>John Dean</td>
+      </tr>
+    </table>
+
+<form action="#" method="GET">
+<h1>Isilah formulir dibawah ini</h1>
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td><input type="name" name="nama"  required placeholder="Nama Kamu"/><br /></td>
+    </tr>       
+
+    <tr>
+        <td>Password</td>
+        <td>:</td>
+        <td><input type="password" name="password" required placeholder="Password Kamu"/></td>
+    </tr>
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td><input type="radio" name="jenisKelamin" /> Laki-Laki
+            <input type="radio" name="jenisKelamin" /> Perempuan</td>
+    </tr>
+
+    <tr>
+        <td>Hobi</td>
+        <td>:</td>
+        <td><input type="checkbox" name="hobi" /> Membaca Buku </input>
+            <input type="checkbox" name="hobi" /> Menulis </input>
+            <input type="checkbox" name="hobi" /> Memancing </input></td>
+    </tr>
+
+    <tr>
+        <td>Asal Kota</td>
+        <td>:</td>
+        <td><select name="kota">
+            <option value="semarang"> Semarang</option>
+            <option value="surabaya"> Surabaya</option>
+            <option value="malang"> Malang</option>
+            <option value="yogyakarta"> Yogyakarta</option>
+            <option value="jakarta"> Jakarta</option>
+        </select></td>
+    </tr>
+    
+    <tr>
+        <td>Komentar Anda</td>
+        <td>:</td>
+        <td><textarea name="komentar" rows="4" cols="20" placeholder="Silahkan katakan isi hati anda"></textarea> </td>
+    </tr>  
+
+    <tr>
+        <td><input type="submit" name="submit" value="Mulai Proses!"/></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</form>
 </body>
 </html>
